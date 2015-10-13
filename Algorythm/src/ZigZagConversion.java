@@ -20,7 +20,6 @@ convert("PAYPALISHIRING", 3) should return "PAHNAPLSIIGYIR".
     	int p = -1;
     	int len = s.length();
     	for(int i = 0; i < numRows; ++i) {
-    		p = i;
     		if(i == 0 || i == numRows - 1) {
     			while(p < len) {
     				sb.append(s.charAt(p) + "");
